@@ -7,7 +7,8 @@ public class Prob11QuickSort {
 //Quick sort may not be always the quickest sort method
 	//However in a good number of case, the first iteration would sort the list to a great extend.
 	//In Quick sort we pick a pivot can be any one integer, loop through all other values to find it's position
-	//i.e. finds out all values smaller than that and bigger than that and swaps them.
+	//i.e. for e.g. finds out all values smaller than that and move it to the left
+	//			and find all elements bigger than that and move them to the right.
 	//then we break the array into two parts and repeats the same.
 	public static void main(String args[]) {
 		int[] unsorted = { 34, 32, 43, 12, 11, 32, 22, 21, 32 };

@@ -6,12 +6,7 @@ import java.util.Arrays;
 
 public class DifferenceOfTranspose {
 
-	/**
-	 * @param args
-	 */
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 
 		ArrayList l1 = new ArrayList();

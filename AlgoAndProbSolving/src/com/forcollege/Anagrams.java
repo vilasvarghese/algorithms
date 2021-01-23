@@ -22,7 +22,7 @@ public class Anagrams {
 	/*
 	 * Above method uses String.indexOf which is more than O(n) complex.
 	 * Hence this can be solved by using a HashSet.
-	 * HashSet would have contant time complexity
+	 * HashSet would have constant time complexity
 	 */
 	
 	public static void main(String[] args) {
