@@ -11,6 +11,7 @@ public class Anagrams {
 			//The time complexity of String.indexOf is more than O(c)
 			int index = anagram.indexOf(c);
 			if (index != -1) {
+				//what can we do better here.
 				anagram = anagram.substring(0, index) + anagram.substring(index + 1, anagram.length());
 			} else {
 				return false;
@@ -18,6 +19,11 @@ public class Anagrams {
 		}
 		return anagram.isEmpty();
 	}
+	
+	
+	
+	
+	
 	
 	/*
 	 * Above method uses String.indexOf which is more than O(n) complex.

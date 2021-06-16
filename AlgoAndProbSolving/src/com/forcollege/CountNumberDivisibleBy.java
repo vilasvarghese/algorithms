@@ -42,4 +42,4 @@ public class CountNumberDivisibleBy {
 		return arrayList;
    }
 }
-
+//Can we improve this logic?
